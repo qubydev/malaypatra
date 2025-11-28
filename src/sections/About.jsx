@@ -18,7 +18,7 @@ export default function About() {
         Currently, I am <span className="hl">actively seeking a full-stack web developer role</span> where I can apply my skills, grow professionally, and build impactful digital solutions
       </p>
       <p>Let’s build something great! ✨</p>
-      <a href="https://drive.google.com/file/d/1ndeSxjR6InKTRdrs69jDwf1PTqHN_JSt/view?usp=sharing" target='_blank'>
+      <a href="https://drive.google.com/file/d/1y6b5iGTslsp1Ha9gmsb4X0XKTd3icEZj/view?usp=sharing" target='_blank'>
         <Button1>
           <SvgIcon icon={Pdf} />
           Resume
