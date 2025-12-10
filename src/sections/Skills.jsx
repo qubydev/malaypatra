@@ -47,7 +47,7 @@ export default function Skills() {
                 { 'name': 'Next.js', 'icon': 'nextjs' },
                 { 'name': 'Supabase', 'icon': 'supabase' },
                 { 'name': 'Flask', 'icon': 'flask' },
-                { 'name': 'REST APIs', 'icon': '' },
+                { 'name': 'REST APIs', 'icon': 'postman' },
             ]} playMode={playMode} />
 
             <SkillCard heading='Databases' hcolor="#FFB400" skills={[
@@ -72,7 +72,7 @@ export default function Skills() {
             <SkillCard heading='Extras' hcolor="#FF69B4" skills={[
                 { 'name': 'Selenium', 'icon': 'selenium' },
                 { 'name': 'Web Scraping', 'icon': 'https://simpleicons.org/icons/chromewebstore.svg' },
-                { 'name': 'OpenAI', 'icon': 'https://simpleicons.org/icons/openai.svg' },
+                { 'name': 'OpenAI', 'icon': 'https://logo.svgcdn.com/logos/openai-icon.svg' },
                 { 'name': 'HuggingFace', 'icon': 'https://simpleicons.org/icons/huggingface.svg' },
                 { 'name': 'Gemini', 'icon': 'https://simpleicons.org/icons/googlegemini.svg' },
             ]} playMode={playMode} />

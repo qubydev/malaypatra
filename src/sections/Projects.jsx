@@ -7,18 +7,31 @@ export default function Projects() {
       <h2>Projects</h2>
       <Holder>
         <ProjectCard>
-          <img src='voidide.png' alt='VoidIDE' />
+          <img src='infia.png' alt='Infia' />
           <Content>
-            <h3>VoidIDE</h3>
-            <p>A web-based IDE powered by OneCompiler, tailored for competitive programming and DSA in multiple languages. No installation required—just hit "Run" and start coding!</p>
+            <h3>Infia</h3>
+            <p>Infia does it for you - A seamless integration platform that connects with Google, GitHub, Notion, Slack, and more. One-click OAuth authentication to automate tasks across your favorite tools. Just connect and let Infia handle the rest.</p>
             <Tags>
-              <Tag hashtag="React" />
-              <Tag hashtag="GenAI" />
+              <Tag hashtag="better-auth" />
               <Tag hashtag="Nextjs" />
+              <Tag hashtag="OpenAI" />
               <Tag hashtag="Tailwind Css" />
             </Tags>
           </Content>
-          <CardActions visit="https://voidide.vercel.app" source="https://github.com/malay77patra/flameide" />
+          <CardActions visit="https://infia.vercel.app" source="https://github.com/qubydev/infia" />
+        </ProjectCard>
+        <ProjectCard>
+          <img src='fullstacksheet.png' alt='Full Stack Sheet' />
+          <Content>
+            <h3>Full Stack Sheet</h3>
+            <p>Master web development from frontend basics to advanced backend concepts. A comprehensive learning roadmap covering 850+ topics across HTML, CSS, JavaScript, React, Next.js, databases, and system architecture with progress tracking.</p>
+            <Tags>
+              <Tag hashtag="Nextjs" />
+              <Tag hashtag="Authjs" />
+              <Tag hashtag="Tailwind Css" />
+            </Tags>
+          </Content>
+          <CardActions visit="https://www.fullstacksheet.tech/" source="https://github.com/qubydev/full-stack-sheet" />
         </ProjectCard>
         <ProjectCard>
           <img src='hotkeys.png' alt='HOTKEYS' />
@@ -36,21 +49,6 @@ export default function Projects() {
           <CardActions visit="https://hotkeys-iota.vercel.app" source="https://github.com/malay77patra/hotkeys" />
         </ProjectCard>
         <ProjectCard>
-          <img src='physoxy.png' alt='Physoxy' />
-          <Content>
-            <h3>Physoxy</h3>
-            <p>A full-stack, production-ready web app with secure JWT authentication, role-based access, and user subscriptions. Features a decoupled architecture, email verification, theme support, and admin tools—all and many more.</p>
-            <Tags>
-              <Tag hashtag="React" />
-              <Tag hashtag="Mongodb" />
-              <Tag hashtag="Express js" />
-              <Tag hashtag="Tailwind Css" />
-              <Tag hashtag="daisy UI" />
-            </Tags>
-          </Content>
-          <CardActions visit="https://physoxy.vercel.app" source="https://github.com/malay77patra/Physoxy" />
-        </ProjectCard>
-        <ProjectCard>
           <img src='flamecoders.png' alt='Flamecoders' />
           <Content>
             <h3>Flamecoders</h3>
@@ -64,6 +62,47 @@ export default function Projects() {
             </Tags>
           </Content>
           <CardActions visit="https://flamecoders.vercel.app/" source="https://github.com/malay77patra/flamecoders-frontend" />
+        </ProjectCard>
+        <ProjectCard>
+          <img src='voidide.png' alt='VoidIDE' />
+          <Content>
+            <h3>VoidIDE</h3>
+            <p>A web-based IDE powered by OneCompiler, tailored for competitive programming and DSA in multiple languages. No installation required—just hit "Run" and start coding!</p>
+            <Tags>
+              <Tag hashtag="React" />
+              <Tag hashtag="Compiler API" />
+              <Tag hashtag="Nextjs" />
+              <Tag hashtag="Tailwind Css" />
+            </Tags>
+          </Content>
+          <CardActions visit="https://voidide.vercel.app" source="https://github.com/malay77patra/flameide" />
+        </ProjectCard>
+        <ProjectCard>
+          <img src='url-dino.png' alt='URL Dino' />
+          <Content>
+            <h3>URL Dino</h3>
+            <p>The iconic Chrome dino game, but it lives in your URL bar! A creative twist on the classic endless runner where the game state is encoded directly in the URL. Press space to jump and watch the magic happen in your browser's address bar.</p>
+            <Tags>
+              <Tag hashtag="JavaScript" />
+              <Tag hashtag="Creativity" />
+              <Tag hashtag="URL Encoding" />
+            </Tags>
+          </Content>
+          <CardActions visit="https://url-dino.vercel.app/" source="https://github.com/qubydev/url-dino" />
+        </ProjectCard>
+        <ProjectCard>
+          <img src='crackedbadges.png' alt='Cracked Badges' />
+          <Content>
+            <h3>Cracked Badges</h3>
+            <p>Generate stunning cracked badges for your LinkedIn, Twitter, Instagram, and other social profiles. Inspired by LinkedIn's "Open to Work" badge, customize colors, text, and backgrounds to create eye-catching profile badges that stand out.</p>
+            <Tags>
+              <Tag hashtag="Nextjs" />
+              <Tag hashtag="Canvas API" />
+              <Tag hashtag="Design Tool" />
+              <Tag hashtag="Tailwind Css" />
+            </Tags>
+          </Content>
+          <CardActions visit="https://crackedbadges.vercel.app/" source="https://github.com/qubydev/cracked-badges" />
         </ProjectCard>
         <ProjectCard>
           <img src='malay-patrav1.png' alt='Portfolio v1' />

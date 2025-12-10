@@ -55,6 +55,16 @@ export default function Experience() {
                 <div className='details'>
                     <h3>Open Source Contribution</h3>
                     <p>Actively contributed to open-source projects by developing new features, resolving issues, and enhancing documentation. Engaged with the community through code reviews and discussions to drive improvements.</p>
+                    <div className="repo-list">
+                        <a href="https://github.com/Ripple-TS/ripple" target="_blank" rel="noopener noreferrer" className="repo-button">
+                            <Github />
+                            Ripple-TS/ripple
+                        </a>
+                        <a href="https://github.com/al1abb/invoify" target="_blank" rel="noopener noreferrer" className="repo-button">
+                            <Github />
+                            al1abb/invoify
+                        </a>
+                    </div>
                     <Timeline>
                         <TimelineItem icon={<Github />} color="#5f5f5fff" to="https://github.com/qubydev">
                             <h4>Github</h4>

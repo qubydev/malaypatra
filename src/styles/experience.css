@@ -33,6 +33,39 @@
     padding: 4px;
 }
 
+.repo-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 16px 0;
+}
+
+.repo-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 12px;
+    background-color: transparent;
+    color: var(--clr-text);
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.repo-button svg {
+    width: 16px;
+    height: 16px;
+    fill: currentColor;
+}
+
+.repo-button:hover {
+    background-color: rgba(128, 128, 128, 0.1);
+    border-color: rgba(128, 128, 128, 0.5);
+}
+
 
 @media (max-width: 768px) {
     .experience {
