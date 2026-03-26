@@ -34,7 +34,7 @@ export default function Skills() {
                 </p>
             )}
 
-            <SkillCard heading='Languages' hcolor="#4CAF50" skills={[
+            <SkillCard heading='Languages' skills={[
                 { 'name': 'Python', 'icon': 'python' },
                 { 'name': 'C++', 'icon': 'cplusplus' },
                 { 'name': 'JavaScript', 'icon': 'javascript' },
@@ -42,7 +42,7 @@ export default function Skills() {
                 { 'name': 'SQL', 'icon': 'mysql' },
             ]} playMode={playMode} />
 
-            <SkillCard heading='Frontend' hcolor="#FF6F61" skills={[
+            <SkillCard heading='Frontend' skills={[
                 { 'name': 'React', 'icon': 'react' },
                 { 'name': 'Tailwind CSS', 'icon': 'tailwindcss' },
                 { 'name': 'shadcn/ui', 'icon': 'https://simpleicons.org/icons/shadcnui.svg' },
@@ -50,27 +50,27 @@ export default function Skills() {
                 { 'name': 'CSS', 'icon': 'css3' },
             ]} playMode={playMode} />
 
-            <SkillCard heading='Backend' hcolor="#6A5ACD" skills={[
+            <SkillCard heading='Backend' skills={[
                 { 'name': 'Next.js', 'icon': 'nextjs' },
                 { 'name': 'Express', 'icon': 'express' },
                 { 'name': 'Supabase', 'icon': 'supabase' },
                 { 'name': 'Flask', 'icon': 'flask' },
             ]} playMode={playMode} />
 
-            <SkillCard heading='Databases' hcolor="#FFB400" skills={[
+            <SkillCard heading='Databases' skills={[
                 { 'name': 'MongoDB', 'icon': 'mongodb' },
                 { 'name': 'PostgreSQL', 'icon': 'postgresql' },
             ]} playMode={playMode} />
 
 
-            <SkillCard heading='Tools' hcolor="#00BFFF" skills={[
+            <SkillCard heading='Tools' skills={[
                 { 'name': 'Git', 'icon': 'git' },
                 { 'name': 'VS Code', 'icon': 'vscode' },
                 { 'name': 'Postman', 'icon': 'postman' },
                 { 'name': 'Figma', 'icon': 'figma' },
             ]} playMode={playMode} />
 
-            <SkillCard heading='Extras' hcolor="#FF69B4" skills={[
+            <SkillCard heading='Extras' skills={[
                 { 'name': 'LangChain', 'icon': 'https://simpleicons.org/icons/langchain.svg' },
                 { 'name': 'LangGraph', 'icon': 'https://simpleicons.org/icons/langgraph.svg' },
                 { 'name': 'Selenium', 'icon': 'selenium' }
