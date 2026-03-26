@@ -497,3 +497,13 @@
         transform: rotate(180deg);
     }
 }
+
+.tech-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 0 6px;
+    border-radius: 3px;
+    font-size: 14px;
+}

@@ -1,21 +1,23 @@
 import { Button1 } from '../components/Buttons'
 import Pdf from "../assets/icons/pdf.svg?react";
 import SvgIcon from '../components/SvgIcon';
+import TechBadge from '../components/TechBadge';
+import '../styles/about.css';
 
 export default function About() {
 
 
   return (
-    <div className='about-section section' id="about">
+  <div className='about-section section' id="about">
       <h2>About</h2>
       <p>
-        I'm <span className="hl">Malay Patra</span>, an undergraduate (2028) engineering student at <a href="https://jadavpuruniversity.in">Jadavpur University</a>. I am passionate about building dynamic and efficient web applications with the <span className="hl">MERN stack</span>. As a self-taught developer, I am constantly exploring new technologies to sharpen my skills.
+        I'm <span className='hl'>Malay Patra</span>, a Full-Stack developer & Agentic AI enthusiast. I build web apps using <TechBadge tech="ts" />, <TechBadge tech="react" />, <TechBadge tech="next" /> and <TechBadge tech="tailwind" />, while also having a keen interest in building agentic AI solutions using <TechBadge tech="langchain" />.
       </p>
       <p>
-        In 2023, I began my freelancing journey on <span className="hl">Upwork</span>, collaborating with clients before pausing in mid-2024 to focus on advancing my technical expertise and balancing my engineering academics. I have also gained hands-on experience working with <span className="hl">startups</span>, contributing to real-world projects and production environments.
+        Being good at Figma gives me an edgge in UI/UX design, I also draw small doodles sometimes.
       </p>
       <p>
-        Currently, I am actively seeking a <span className="hl">full-stack web developer</span> role where I can apply my skills, grow professionally, and build impactful digital solutions
+        If I had to introduce myself in one line, it would be <br /> → "I create full stack solutions to the problems I face in my daily development journey"
       </p>
       <p>Let’s build something great! ✨</p>
       <a href="https://drive.google.com/file/d/1y6b5iGTslsp1Ha9gmsb4X0XKTd3icEZj/view?usp=sharing" target='_blank'>

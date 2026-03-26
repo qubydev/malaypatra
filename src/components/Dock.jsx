@@ -13,9 +13,9 @@ const Dock = ({ ...props }) => {
     return (
         <div className="dock" {...props} >
             <img
-                src={theme === "dark" ? "logo.svg" : "logo-dark.svg"}
-                height="24"
-                width="24"
+                src="logo.svg"
+                height="32"
+                width="32"
                 alt="Logo"
                 style={{
                     padding: "0.5rem",

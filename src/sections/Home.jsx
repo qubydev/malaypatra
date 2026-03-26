@@ -6,7 +6,7 @@ import { loadSlim } from "@tsparticles/slim";
 import { particleNasaTheme } from '../utils/utils'
 import Sparkles from '../components/Sparkles'
 import '../styles/home.css'
-import Quby from '../assets/quby.png'
+import Pfp from '../assets/pfp.jpg'
 import SpaceBg from '../components/SpaceBg';
 
 
@@ -33,7 +33,7 @@ export default function Home() {
                     <div>
                         <div className='pf-info'>
                             <div className='malay-img-cont'>
-                                <img src={Quby} alt="Malay" className='malay-img' />
+                                <img src={Pfp} alt="Malay" className='malay-img' />
                             </div>
                             <div>
                                 <span className='country-badge'>📍India</span>
@@ -41,10 +41,10 @@ export default function Home() {
                             </div>
                         </div>
                         <div>
-                            <Sparkles scale={1.5}>
+                            <Sparkles scale={1.5} color="#FDBC01">
                                 <h1 className='highlight-txt'>FULLSTACK</h1>
                                 <h1><span>DEVELOPER</span> &</h1>
-                                <h1><span className='highlight-txt'>API</span> EXPERT</h1>
+                                <h1><span className='highlight-txt'>AGENTIC AI</span></h1>
                             </Sparkles>
                         </div>
                     </div>
