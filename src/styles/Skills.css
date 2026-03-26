@@ -14,6 +14,9 @@
 }
 
 .play-info {
-    color: var(--clr-accent);
-    font-size: 14px;
+    font-size: 12px;
+    opacity: 0.6;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
 }

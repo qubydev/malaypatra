@@ -5,6 +5,7 @@ import { RiNextjsFill } from "react-icons/ri"
 import { ThemeContext } from '../context/ThemeContext'
 import { RiTailwindCssFill } from "react-icons/ri"
 import { SiLangchain } from "react-icons/si";
+import { FaFigma } from "react-icons/fa";
 
 const TECHS = {
     ts: {
@@ -45,6 +46,14 @@ const TECHS = {
         color: {
             light: "#009c7d",
             dark: "#00b590"
+        }
+    },
+    figma: {
+        name: "Figma",
+        icon: <FaFigma />,
+        color: {
+            light: "#f8217b",
+            dark: "#f8217b"
         }
     }
 }
