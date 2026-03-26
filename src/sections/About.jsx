@@ -20,7 +20,7 @@ export default function About() {
         In short, <br /> → "I create full stack solutions to the problems I face in my daily development journey"
       </p>
       <p>Let’s build something great! ✨</p>
-      <a href="https://drive.google.com/file/d/1y6b5iGTslsp1Ha9gmsb4X0XKTd3icEZj/view?usp=sharing" target='_blank'>
+      <a href="https://drive.google.com/file/d/1ndeSxjR6InKTRdrs69jDwf1PTqHN_JSt/view?usp=drive_link" target='_blank'>
         <Button1>
           <SvgIcon icon={Pdf} />
           Resume
