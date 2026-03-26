@@ -13,7 +13,7 @@ export default function Menu() {
 
     return (
         <div style={{
-            position: "fixed",
+            position: "absolute",
             top: "1rem",
             right: "1rem",
             zIndex: 1000
