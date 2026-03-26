@@ -10,7 +10,7 @@ export default function Projects() {
           <img src='infia.png' alt='Infia' />
           <Content>
             <h3>Infia</h3>
-            <p>Infia does it for you - A seamless integration platform that connects with Google, GitHub, Notion, Slack, and more. One-click OAuth authentication to automate tasks across your favorite tools. Just connect and let Infia handle the rest.</p>
+            <p>Connect apps like Google, GitHub, and Slack with one-click OAuth to automate workflows.</p>
             <Tags>
               <Tag hashtag="better-auth" />
               <Tag hashtag="Nextjs" />
@@ -24,7 +24,7 @@ export default function Projects() {
           <img src='fullstacksheet.png' alt='Full Stack Sheet' />
           <Content>
             <h3>Full Stack Sheet</h3>
-            <p>Master web development from frontend basics to advanced backend concepts. A comprehensive learning roadmap covering 850+ topics across HTML, CSS, JavaScript, React, Next.js, databases, and system architecture with progress tracking.</p>
+            <p>A structured roadmap to learn full-stack development with 850+ topics and progress tracking.</p>
             <Tags>
               <Tag hashtag="Nextjs" />
               <Tag hashtag="Authjs" />
@@ -34,10 +34,24 @@ export default function Projects() {
           <CardActions visit="https://www.fullstacksheet.tech/" source="https://github.com/qubydev/full-stack-sheet" />
         </ProjectCard>
         <ProjectCard>
+          <img src='logocat.png' alt='Logocat' />
+          <Content>
+            <h3>Logocat</h3>
+            <p>Instantly fetch logos from any website using smart fallbacks like favicon, Open Graph, and meta tags.</p>
+            <Tags>
+              <Tag hashtag="Nextjs" />
+              <Tag hashtag="better-auth" />
+              <Tag hashtag="Tailwind Css" />
+              <Tag hashtag="langchain" />
+            </Tags>
+          </Content>
+          <CardActions visit="https://logocat.vercel.app" source="https://github.com/qubydev/logocat" />
+        </ProjectCard>
+        <ProjectCard>
           <img src='hotkeys.png' alt='HOTKEYS' />
           <Content>
             <h3>HOTKEYS</h3>
-            <p>Learn the keys, kill the 🐀. Master keyboard shortcuts with ease. Discover, learn, and use hotkeys faster than ever. Boost your productivity - No more guessing - No more clicking - Just pure flow.</p>
+            <p>Learn and master keyboard shortcuts to boost productivity and stay in flow.</p>
             <Tags>
               <Tag hashtag="Nextjs" />
               <Tag hashtag="Reactjs" />
@@ -52,7 +66,7 @@ export default function Projects() {
           <img src='flamecoders.png' alt='Flamecoders' />
           <Content>
             <h3>Flamecoders</h3>
-            <p>A full-stack article platform with a rich markdown editor, theme support, and secure JWT-based auth. Designed with scalable, decoupled architecture and production-grade structure for seamless writing, deployment, and user experience.</p>
+            <p>A full-stack blogging platform with markdown editing, auth, and scalable architecture.</p>
             <Tags>
               <Tag hashtag="React" />
               <Tag hashtag="Mongodb" />
@@ -67,7 +81,7 @@ export default function Projects() {
           <img src='voidide.png' alt='VoidIDE' />
           <Content>
             <h3>VoidIDE</h3>
-            <p>A web-based IDE powered by OneCompiler, tailored for competitive programming and DSA in multiple languages. No installation required—just hit "Run" and start coding!</p>
+            <p>A browser-based IDE for coding and running programs instantly in multiple languages.</p>
             <Tags>
               <Tag hashtag="React" />
               <Tag hashtag="Compiler API" />
@@ -81,7 +95,7 @@ export default function Projects() {
           <img src='url-dino.png' alt='URL Dino' />
           <Content>
             <h3>URL Dino</h3>
-            <p>The iconic Chrome dino game, but it lives in your URL bar! A creative twist on the classic endless runner where the game state is encoded directly in the URL. Press space to jump and watch the magic happen in your browser's address bar.</p>
+            <p>A fun Chrome dino game that runs entirely inside your browser’s URL bar.</p>
             <Tags>
               <Tag hashtag="JavaScript" />
               <Tag hashtag="Creativity" />
@@ -94,7 +108,7 @@ export default function Projects() {
           <img src='crackedbadges.png' alt='Cracked Badges' />
           <Content>
             <h3>Cracked Badges</h3>
-            <p>Generate stunning cracked badges for your LinkedIn, Twitter, Instagram, and other social profiles. Inspired by LinkedIn's "Open to Work" badge, customize colors, text, and backgrounds to create eye-catching profile badges that stand out.</p>
+            <p>Create custom social media badges with unique styles inspired by “Open to Work”.</p>
             <Tags>
               <Tag hashtag="Nextjs" />
               <Tag hashtag="Canvas API" />
@@ -108,7 +122,7 @@ export default function Projects() {
           <img src='malay-patrav1.png' alt='Portfolio v1' />
           <Content>
             <h3>Malay Patra, Portfolio v1</h3>
-            <p>This is the first version of my personal portfolio website. It showcases my skills, projects, and experiences as a web developer. The portfolio is designed to be visually appealing and easy to navigate, providing a detailed introduction about myself.</p>
+            <p>My first portfolio showcasing projects, skills, and experience as a web developer.</p>
             <Tags>
               <Tag hashtag="React" />
               <Tag hashtag="React-Scroll" />
