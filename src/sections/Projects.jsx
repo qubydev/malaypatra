@@ -46,7 +46,7 @@ export default function Projects() {
               <Tag hashtag="TailwindCSS" />
             </Tags>
           </Content>
-          <CardActions visit="https://hotkeys-iota.vercel.app" source="https://github.com/malay77patra/hotkeys" />
+          <CardActions visit="https://gethotkeys.vercel.app" source="https://github.com/malay77patra/hotkeys" />
         </ProjectCard>
         <ProjectCard>
           <img src='flamecoders.png' alt='Flamecoders' />
